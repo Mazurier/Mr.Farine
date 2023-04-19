@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    font-size: calc(10px + 0.315vw);
     top: 0%;
     left: 0%;
     border-style: solid;
@@ -47,6 +48,9 @@ footer {
     border-color: black;
     border-style: solid;
     width: fit-content;
+}
+.recherche {
+    width: 11vw;
 }
 .lastbandeau {
     padding: 2px 1%;
