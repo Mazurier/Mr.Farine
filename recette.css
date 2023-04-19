@@ -21,8 +21,8 @@ ul {
     margin-top: -12px;
 }
 footer {
-    position: absolute;
-    bottom: -1180px;
+    position: fixed;
+    bottom: 0px;
     left: 0%;
     border: 2px solid black;
     width: 99.8%;
@@ -184,5 +184,14 @@ footer {
         margin-right: 5%;
         width: 90%;
         font-size: max(8px, 0.9vw);
+    }
+}
+
+@media only screen and (max-height: 927px) {
+    .chat {
+        display: none;
+    }
+    .farine {
+        margin-top: 262px;
     }
 }
