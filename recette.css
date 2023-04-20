@@ -183,7 +183,7 @@ footer {
     margin-left: 30px;
 }
 
-@media only screen and (max-width: 1800px) {
+@media (max-width: 1800px) {
     .copaing {
         display: none;
     }
@@ -201,7 +201,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
     .nav, .farine, .chat {
         display: none;
     }
@@ -213,7 +213,7 @@ footer {
     }
 }
 
-@media only screen and (max-height: 927px) {
+@media (max-height: 927px) {
     .chat {
         display: none;
     }

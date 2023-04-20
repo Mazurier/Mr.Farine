@@ -1,14 +1,17 @@
 body {
     background-image: url(img/background.jpg);
 }
-.bandeau {
+header {
     position: fixed;
     top: 0px;
     left: 0px;
     background-color: rgb(182, 73, 23);
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     font-family: Helvetica;
-    height: auto;
+    height: max(40px, 8%);
     width: 100%;
 }
 .bandinter {
@@ -16,6 +19,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100%;
+    font-size: max(10px, 1vw);
 }
 .logo {
     display: flex;
@@ -51,8 +56,8 @@ body {
 }
 
 .icone {
-    padding: 12px;
-    width: 40px;
+    padding: 10px;
+    height: 4.5vh;
 }
 .intro {
     width: auto;
